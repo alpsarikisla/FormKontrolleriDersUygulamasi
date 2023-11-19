@@ -16,7 +16,7 @@ namespace WinformsKontrolleri
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MetinEditoru());
+            Application.Run(new FlowLayoutPanelKontrolu());
             //Uygumayı TextBoxKontrolu isimli Form Üzerinde çalıştır
         }
     }

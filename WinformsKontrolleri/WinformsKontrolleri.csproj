@@ -64,6 +64,12 @@
     <Compile Include="ComboBoxKontrolu.Designer.cs">
       <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FlowLayoutPanelKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowLayoutPanelKontrolu.Designer.cs">
+      <DependentUpon>FlowLayoutPanelKontrolu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,12 @@
     <Compile Include="PersonelKayit.Designer.cs">
       <DependentUpon>PersonelKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="PictureBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBoxKontrolu.Designer.cs">
+      <DependentUpon>PictureBoxKontrolu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProgressBarVeTimerKontrolleri.cs">
       <SubType>Form</SubType>
@@ -124,6 +136,9 @@
     <EmbeddedResource Include="ComboBoxKontrolu.resx">
       <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FlowLayoutPanelKontrolu.resx">
+      <DependentUpon>FlowLayoutPanelKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListBoxKontrolu.resx">
       <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PersonelKayit.resx">
       <DependentUpon>PersonelKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBoxKontrolu.resx">
+      <DependentUpon>PictureBoxKontrolu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProgressBarVeTimerKontrolleri.resx">
       <DependentUpon>ProgressBarVeTimerKontrolleri.cs</DependentUpon>
@@ -180,6 +198,7 @@
     <Content Include="Icons\diskette.png" />
     <Content Include="Icons\file.png" />
     <Content Include="Icons\folder.png" />
+    <Content Include="Resimler\resim.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
