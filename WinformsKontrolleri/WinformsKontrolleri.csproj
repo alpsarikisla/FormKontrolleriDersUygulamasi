@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37D818F3-2398-4017-B1BA-1C7AE2A169D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WinformsKontrolleri</RootNamespace>
+    <AssemblyName>WinformsKontrolleri</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonKontrolu.Designer.cs">
+      <DependentUpon>ButtonKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CokBasitHesapMakinesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CokBasitHesapMakinesi.Designer.cs">
+      <DependentUpon>CokBasitHesapMakinesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBoxKontrolu.Designer.cs">
+      <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBoxKontrolu.Designer.cs">
+      <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListBoxUygulama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBoxUygulama.Designer.cs">
+      <DependentUpon>ListBoxUygulama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetinEditoru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetinEditoru.Designer.cs">
+      <DependentUpon>MetinEditoru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Ay.cs" />
+    <Compile Include="PersonelDosyaKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelDosyaKayit.Designer.cs">
+      <DependentUpon>PersonelDosyaKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelKayit.Designer.cs">
+      <DependentUpon>PersonelKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarVeTimerKontrolleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBarVeTimerKontrolleri.Designer.cs">
+      <DependentUpon>ProgressBarVeTimerKontrolleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextBoxKontrolu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextBoxKontrolu.Designer.cs">
+      <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ButtonKontrolu.resx">
+      <DependentUpon>ButtonKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CokBasitHesapMakinesi.resx">
+      <DependentUpon>CokBasitHesapMakinesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBoxKontrolu.resx">
+      <DependentUpon>ComboBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxKontrolu.resx">
+      <DependentUpon>ListBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxUygulama.resx">
+      <DependentUpon>ListBoxUygulama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetinEditoru.resx">
+      <DependentUpon>MetinEditoru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelDosyaKayit.resx">
+      <DependentUpon>PersonelDosyaKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelKayit.resx">
+      <DependentUpon>PersonelKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBarVeTimerKontrolleri.resx">
+      <DependentUpon>ProgressBarVeTimerKontrolleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TextBoxKontrolu.resx">
+      <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{a380af21-4112-4c8e-820b-70536dbb8bce}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\close.png" />
+    <Content Include="Icons\data-storage.png" />
+    <Content Include="Icons\diskette.png" />
+    <Content Include="Icons\file.png" />
+    <Content Include="Icons\folder.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
