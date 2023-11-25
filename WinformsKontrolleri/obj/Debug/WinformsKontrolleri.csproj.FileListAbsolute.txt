@@ -44,3 +44,4 @@ C:\Users\303\Documents\GitHub\FormKontrolleriDersUygulamasi\WinformsKontrolleri\
 C:\Users\303\Documents\GitHub\FormKontrolleriDersUygulamasi\WinformsKontrolleri\obj\Debug\WinformsKontrolleri.exe
 C:\Users\303\Documents\GitHub\FormKontrolleriDersUygulamasi\WinformsKontrolleri\obj\Debug\WinformsKontrolleri.pdb
 C:\Users\303\Documents\GitHub\FormKontrolleriDersUygulamasi\WinformsKontrolleri\obj\Debug\WinformsKontrolleri.FlowLayoutPanelKontrolu.resources
+C:\Users\303\Documents\GitHub\FormKontrolleriDersUygulamasi\WinformsKontrolleri\obj\Debug\WinformsKontrolleri.TorunBrowser.resources

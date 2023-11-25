@@ -127,6 +127,12 @@
     <Compile Include="TextBoxKontrolu.Designer.cs">
       <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
     </Compile>
+    <Compile Include="TorunBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TorunBrowser.Designer.cs">
+      <DependentUpon>TorunBrowser.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ButtonKontrolu.resx">
       <DependentUpon>ButtonKontrolu.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +178,9 @@
     </Compile>
     <EmbeddedResource Include="TextBoxKontrolu.resx">
       <DependentUpon>TextBoxKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TorunBrowser.resx">
+      <DependentUpon>TorunBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
